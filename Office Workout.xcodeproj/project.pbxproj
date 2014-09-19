@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3164729E19CBE60E007798ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3164729D19CBE60E007798ED /* AppDelegate.swift */; };
+		316472A119CBE60E007798ED /* Office_Workout.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3164729F19CBE60E007798ED /* Office_Workout.xcdatamodeld */; };
+		316472A319CBE60E007798ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472A219CBE60E007798ED /* ViewController.swift */; };
+		316472A619CBE60E007798ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 316472A419CBE60E007798ED /* Main.storyboard */; };
+		316472A819CBE60E007798ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316472A719CBE60E007798ED /* Images.xcassets */; };
+		316472AB19CBE60E007798ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316472A919CBE60E007798ED /* LaunchScreen.xib */; };
+		316472B719CBE60E007798ED /* Office_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472B619CBE60E007798ED /* Office_WorkoutTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		316472B119CBE60E007798ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3164729019CBE60E007798ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3164729719CBE60E007798ED;
+			remoteInfo = "Office Workout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3164729819CBE60E007798ED /* Office Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Office Workout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3164729C19CBE60E007798ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3164729D19CBE60E007798ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		316472A019CBE60E007798ED /* Office_Workout.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Office_Workout.xcdatamodel; sourceTree = "<group>"; };
+		316472A219CBE60E007798ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		316472A519CBE60E007798ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		316472A719CBE60E007798ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		316472AA19CBE60E007798ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		316472B019CBE60E007798ED /* Office WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		316472B519CBE60E007798ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		316472B619CBE60E007798ED /* Office_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Office_WorkoutTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3164729519CBE60E007798ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316472AD19CBE60E007798ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3164728F19CBE60E007798ED = {
+			isa = PBXGroup;
+			children = (
+				3164729A19CBE60E007798ED /* Office Workout */,
+				316472B319CBE60E007798ED /* Office WorkoutTests */,
+				3164729919CBE60E007798ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3164729919CBE60E007798ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3164729819CBE60E007798ED /* Office Workout.app */,
+				316472B019CBE60E007798ED /* Office WorkoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3164729A19CBE60E007798ED /* Office Workout */ = {
+			isa = PBXGroup;
+			children = (
+				3164729D19CBE60E007798ED /* AppDelegate.swift */,
+				316472A219CBE60E007798ED /* ViewController.swift */,
+				316472A419CBE60E007798ED /* Main.storyboard */,
+				316472A719CBE60E007798ED /* Images.xcassets */,
+				316472A919CBE60E007798ED /* LaunchScreen.xib */,
+				3164729F19CBE60E007798ED /* Office_Workout.xcdatamodeld */,
+				3164729B19CBE60E007798ED /* Supporting Files */,
+			);
+			path = "Office Workout";
+			sourceTree = "<group>";
+		};
+		3164729B19CBE60E007798ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3164729C19CBE60E007798ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		316472B319CBE60E007798ED /* Office WorkoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				316472B619CBE60E007798ED /* Office_WorkoutTests.swift */,
+				316472B419CBE60E007798ED /* Supporting Files */,
+			);
+			path = "Office WorkoutTests";
+			sourceTree = "<group>";
+		};
+		316472B419CBE60E007798ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				316472B519CBE60E007798ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3164729719CBE60E007798ED /* Office Workout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316472BA19CBE60E007798ED /* Build configuration list for PBXNativeTarget "Office Workout" */;
+			buildPhases = (
+				3164729419CBE60E007798ED /* Sources */,
+				3164729519CBE60E007798ED /* Frameworks */,
+				3164729619CBE60E007798ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Office Workout";
+			productName = "Office Workout";
+			productReference = 3164729819CBE60E007798ED /* Office Workout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		316472AF19CBE60E007798ED /* Office WorkoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 316472BD19CBE60E007798ED /* Build configuration list for PBXNativeTarget "Office WorkoutTests" */;
+			buildPhases = (
+				316472AC19CBE60E007798ED /* Sources */,
+				316472AD19CBE60E007798ED /* Frameworks */,
+				316472AE19CBE60E007798ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				316472B219CBE60E007798ED /* PBXTargetDependency */,
+			);
+			name = "Office WorkoutTests";
+			productName = "Office WorkoutTests";
+			productReference = 316472B019CBE60E007798ED /* Office WorkoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3164729019CBE60E007798ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = aspro;
+				TargetAttributes = {
+					3164729719CBE60E007798ED = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					316472AF19CBE60E007798ED = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 3164729719CBE60E007798ED;
+					};
+				};
+			};
+			buildConfigurationList = 3164729319CBE60E007798ED /* Build configuration list for PBXProject "Office Workout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3164728F19CBE60E007798ED;
+			productRefGroup = 3164729919CBE60E007798ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3164729719CBE60E007798ED /* Office Workout */,
+				316472AF19CBE60E007798ED /* Office WorkoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3164729619CBE60E007798ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316472A619CBE60E007798ED /* Main.storyboard in Resources */,
+				316472AB19CBE60E007798ED /* LaunchScreen.xib in Resources */,
+				316472A819CBE60E007798ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316472AE19CBE60E007798ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3164729419CBE60E007798ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316472A319CBE60E007798ED /* ViewController.swift in Sources */,
+				3164729E19CBE60E007798ED /* AppDelegate.swift in Sources */,
+				316472A119CBE60E007798ED /* Office_Workout.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		316472AC19CBE60E007798ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				316472B719CBE60E007798ED /* Office_WorkoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		316472B219CBE60E007798ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3164729719CBE60E007798ED /* Office Workout */;
+			targetProxy = 316472B119CBE60E007798ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		316472A419CBE60E007798ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316472A519CBE60E007798ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		316472A919CBE60E007798ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				316472AA19CBE60E007798ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		316472B819CBE60E007798ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		316472B919CBE60E007798ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		316472BB19CBE60E007798ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Office Workout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		316472BC19CBE60E007798ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Office Workout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		316472BE19CBE60E007798ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Office WorkoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office Workout.app/Office Workout";
+			};
+			name = Debug;
+		};
+		316472BF19CBE60E007798ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Office WorkoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Office Workout.app/Office Workout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3164729319CBE60E007798ED /* Build configuration list for PBXProject "Office Workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316472B819CBE60E007798ED /* Debug */,
+				316472B919CBE60E007798ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		316472BA19CBE60E007798ED /* Build configuration list for PBXNativeTarget "Office Workout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316472BB19CBE60E007798ED /* Debug */,
+				316472BC19CBE60E007798ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		316472BD19CBE60E007798ED /* Build configuration list for PBXNativeTarget "Office WorkoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				316472BE19CBE60E007798ED /* Debug */,
+				316472BF19CBE60E007798ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3164729F19CBE60E007798ED /* Office_Workout.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				316472A019CBE60E007798ED /* Office_Workout.xcdatamodel */,
+			);
+			currentVersion = 316472A019CBE60E007798ED /* Office_Workout.xcdatamodel */;
+			path = Office_Workout.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3164729019CBE60E007798ED /* Project object */;
+}
