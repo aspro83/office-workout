@@ -14,6 +14,7 @@
 		316472A819CBE60E007798ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316472A719CBE60E007798ED /* Images.xcassets */; };
 		316472AB19CBE60E007798ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316472A919CBE60E007798ED /* LaunchScreen.xib */; };
 		316472B719CBE60E007798ED /* Office_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472B619CBE60E007798ED /* Office_WorkoutTests.swift */; };
+		316472C119CBE878007798ED /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472C019CBE878007798ED /* ExerciseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		316472B019CBE60E007798ED /* Office WorkoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Office WorkoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		316472B519CBE60E007798ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316472B619CBE60E007798ED /* Office_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Office_WorkoutTests.swift; sourceTree = "<group>"; };
+		316472C019CBE878007798ED /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				316472A919CBE60E007798ED /* LaunchScreen.xib */,
 				3164729F19CBE60E007798ED /* Office_Workout.xcdatamodeld */,
 				3164729B19CBE60E007798ED /* Supporting Files */,
+				316472C019CBE878007798ED /* ExerciseModel.swift */,
 			);
 			path = "Office Workout";
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				316472A319CBE60E007798ED /* ViewController.swift in Sources */,
 				3164729E19CBE60E007798ED /* AppDelegate.swift in Sources */,
 				316472A119CBE60E007798ED /* Office_Workout.xcdatamodeld in Sources */,
+				316472C119CBE878007798ED /* ExerciseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +345,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Office Workout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -351,8 +357,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Office Workout/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
