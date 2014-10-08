@@ -15,6 +15,8 @@
 		316472AB19CBE60E007798ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 316472A919CBE60E007798ED /* LaunchScreen.xib */; };
 		316472B719CBE60E007798ED /* Office_WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472B619CBE60E007798ED /* Office_WorkoutTests.swift */; };
 		316472C119CBE878007798ED /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316472C019CBE878007798ED /* ExerciseModel.swift */; };
+		A72E2CF019E0CB8F003AAF00 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E2CEF19E0CB8F003AAF00 /* ExerciseTableViewCell.swift */; };
+		A72E2CF119E0CB8F003AAF00 /* ExerciseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72E2CEF19E0CB8F003AAF00 /* ExerciseTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 		316472B519CBE60E007798ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316472B619CBE60E007798ED /* Office_WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Office_WorkoutTests.swift; sourceTree = "<group>"; };
 		316472C019CBE878007798ED /* ExerciseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		A72E2CEF19E0CB8F003AAF00 /* ExerciseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,7 @@
 				3164729F19CBE60E007798ED /* Office_Workout.xcdatamodeld */,
 				3164729B19CBE60E007798ED /* Supporting Files */,
 				316472C019CBE878007798ED /* ExerciseModel.swift */,
+				A72E2CEF19E0CB8F003AAF00 /* ExerciseTableViewCell.swift */,
 			);
 			path = "Office Workout";
 			sourceTree = "<group>";
@@ -219,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				316472A319CBE60E007798ED /* ViewController.swift in Sources */,
+				A72E2CF019E0CB8F003AAF00 /* ExerciseTableViewCell.swift in Sources */,
 				3164729E19CBE60E007798ED /* AppDelegate.swift in Sources */,
 				316472A119CBE60E007798ED /* Office_Workout.xcdatamodeld in Sources */,
 				316472C119CBE878007798ED /* ExerciseModel.swift in Sources */,
@@ -230,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				316472B719CBE60E007798ED /* Office_WorkoutTests.swift in Sources */,
+				A72E2CF119E0CB8F003AAF00 /* ExerciseTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +423,7 @@
 				316472BC19CBE60E007798ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316472BD19CBE60E007798ED /* Build configuration list for PBXNativeTarget "Office WorkoutTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +432,7 @@
 				316472BF19CBE60E007798ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
